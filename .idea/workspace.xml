@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6abeb9fb-d08f-4fe3-afb1-3b371fa6240f" name="Changes" comment="Task for grouping lines">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GroupLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GroupLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GroupLinesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/GroupLinesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,7 @@
     <configuration name="GroupLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GroupLines" />
       <module name="unosoft-test" />
+      <option name="PROGRAM_PARAMETERS" value="D:\Users\Михаил\Downloads\unosoft-test\lng.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -95,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupLinesTest$ValidationTests.testValidLineWithoutQuotes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupLinesTest$ValidationTests.testValidLineWithQuotes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unosoft-test" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.GroupLinesTest" />
       <option name="MAIN_CLASS_NAME" value="org.example.GroupLinesTest$ValidationTests" />
-      <option name="METHOD_NAME" value="testValidLineWithoutQuotes" />
+      <option name="METHOD_NAME" value="testValidLineWithQuotes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,13 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GroupLines" />
+      <item itemvalue="JUnit.GroupLinesTest$ValidationTests.testValidLineWithQuotes" />
+      <item itemvalue="JUnit.GroupLinesTest" />
+      <item itemvalue="JUnit.GroupLinesTest$ValidationTests.testEmptyValuesInQuotes" />
+      <item itemvalue="JUnit.GroupLinesTest$ValidationTests.testLineWithSpaces" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GroupLines" />
+        <item itemvalue="JUnit.GroupLinesTest$ValidationTests.testValidLineWithQuotes" />
+        <item itemvalue="JUnit.GroupLinesTest" />
         <item itemvalue="JUnit.GroupLinesTest$ValidationTests.testLineWithSpaces" />
         <item itemvalue="JUnit.GroupLinesTest$ValidationTests.testEmptyValuesInQuotes" />
-        <item itemvalue="JUnit.GroupLinesTest$ValidationTests.testValidLineWithoutQuotes" />
-        <item itemvalue="JUnit.GroupLinesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1776069479773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task for grouping lines">
+      <created>1776069737822</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776069737822</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

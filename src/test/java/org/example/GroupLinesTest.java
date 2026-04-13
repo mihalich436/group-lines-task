@@ -23,6 +23,7 @@ class GroupLinesTest {
             assertTrue(GroupLines.isValidLine("\"111\";\"123\";\"222\""));
             assertTrue(GroupLines.isValidLine("\"200\";\"123\";\"100\""));
             assertTrue(GroupLines.isValidLine("\"300\";\"\";\"100\""));
+            assertTrue(GroupLines.isValidLine("200;\"\""));
         }
 
         @Test

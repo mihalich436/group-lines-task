@@ -33,7 +33,7 @@ public class GroupLines {
     }
 
     public static boolean isValidLine(String line) {
-        return line.matches("^((^|;)(\"[^;\"]*\")|([^;\"]*)($|;))*$");
+        return line.matches("^((\"[^;\"]*\")|([^;\"]*)($|;))*$");
     }
 
     public static void main(String[] args) throws IOException {
@@ -66,7 +66,7 @@ public class GroupLines {
             for (int col = 0; col < row.length; col++) {
                 if (columnMap.size() <= col) columnMap.add(new HashMap<>());
                 String val = row[col].trim();
-                if (val.isEmpty()) continue;
+                if (val.isEmpty() || val.equals("\"\"")) continue;
                 Map<String, Integer> map = columnMap.get(col);
                 if (map.containsKey(val)) {
                     dsu.union(i, map.get(val));
